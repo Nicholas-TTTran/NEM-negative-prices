@@ -179,3 +179,9 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Ignore all the data in the folder data/ 
+# Ignore any file that is of type duckdb
+# Don't want any of that being committed or uploaded to GitHub
+data/
+*.duckdb
