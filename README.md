@@ -1,4 +1,6 @@
 # NEM-negative-prices
+> **Status:** In progress. Current stage covers 2024 price patterns; multi-year trends and generation drivers are next.
+
 Project to investigate when NEM has negative prices
 
 Method to acquire data: Run the python file src/load_prices.py which uses SQL queries to acquire the data
