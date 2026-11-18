@@ -41,7 +41,7 @@ In 2024, more than half of midday 5-minute intervals in South Australia, Victori
 ## Method
 
 1. `src/load_prices.py` downloads the raw AEMO data with nemosis, filters out intervention intervals, and loads the result into a DuckDB database.
-2. `sql/negative_by_hour.sql` calculates the share of negative-price intervals for each region and hour of day. Intervals are assigned to the hour in which they start.
+2. `sql/negative_price_by_hour.sql` calculates the share of negative-price intervals for each region and hour of day. Intervals are assigned to the hour in which they start.
 3. `notebooks/01_negative_prices.ipynb` runs the query and produces the heatmap.
 
 ## How to reproduce
